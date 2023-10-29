@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0b4qpaurtkyf"
+path="res://.godot/imported/TTSP_Angry Electricity.wav-4749b50bd8dd77abec9fa5cb77cf4442.sample"
+
+[deps]
+
+source_file="res://audio/soundtrack/TTSP_Angry Electricity.wav"
+dest_files=["res://.godot/imported/TTSP_Angry Electricity.wav-4749b50bd8dd77abec9fa5cb77cf4442.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

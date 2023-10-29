@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cselbwsi4fyy5"]
+
+[ext_resource type="PackedScene" uid="uid://cmp2p5ojfb832" path="res://player.tscn" id="1_567bl"]
+[ext_resource type="PackedScene" uid="uid://bimf7ha4h7wgq" path="res://terrain.tscn" id="2_i1dtc"]
+
+[sub_resource type="Environment" id="Environment_gcdtu"]
+
+[node name="World" type="WorldEnvironment"]
+environment = SubResource("Environment_gcdtu")
+
+[node name="player" parent="." instance=ExtResource("1_567bl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 69.8328, 0)
+
+[node name="Terrain" parent="." instance=ExtResource("2_i1dtc")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.453856, 0.867161, 0.205054, -0.844735, 0.345463, 0.408752, 0.283615, -0.358731, 0.889311, 0, 0, 0)

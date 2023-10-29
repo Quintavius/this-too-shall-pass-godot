@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bimf7ha4h7wgq"]
+
+[ext_resource type="PackedScene" uid="uid://bx5dhk432hm0n" path="res://levels/test_level.tscn" id="1_ibomf"]
+
+[node name="Terrain" type="Node"]
+
+[node name="test" parent="." instance=ExtResource("1_ibomf")]
